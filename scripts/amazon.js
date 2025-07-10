@@ -24,5 +24,13 @@ const products= [
       count:56,
     },
     priceCents:799
+  },{
+     "image": "images/products/round-sunglasses-black.jpg",
+    "name": "Round Sunglasses",
+    "rating": {
+      "stars": 4.5,
+      "count": 30
+    },
+    "priceCents": 1560,
   }
 ]
