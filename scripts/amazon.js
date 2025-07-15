@@ -141,6 +141,11 @@ const products= [
       count: 160
     },
     priceCents: 1699,
+    keywords: [
+      "shorts",
+      "apparel",
+      "mens"
+    ]
   }
   
 ]
