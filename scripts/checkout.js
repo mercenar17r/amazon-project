@@ -2,7 +2,7 @@ import {cart, removeFromCart,} from '../data/cart.js';
 import {products} from '../data/products.js'
 import { formatCurrency } from './utils/money.js';
 import {hello} from 'https://unpkg.com/supersimpledev@1.0.1/hello.esm.js'
-
+import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js'
 hello();
 const today= dayjs()
  const deliveryDate=today.add(7,'days')
@@ -22,6 +22,7 @@ cart.forEach((cartItem) => {
     }
   });
   
+
   cartSummaryHTML+=`
   <div class="cart-item-containe js-cart-item-${matchingProduct.id}">
   <div class="delivery-date">
@@ -106,3 +107,7 @@ document.querySelectorAll('.js-delete-link').forEach((link)=>{
   })
   
 })
+
+
+
+
